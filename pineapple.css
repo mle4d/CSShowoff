@@ -2,3 +2,12 @@ body {
   margin: auto;
   background: #f0b638;
 }
+
+.container {
+  margin: auto;
+  margin-top: 10vh;
+  width:40vw;
+  height: 80vh;
+  background: #ffffff;
+  border: solid 10px #84a74b;
+}
