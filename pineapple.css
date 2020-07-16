@@ -10,4 +10,19 @@ body {
   height: 80vh;
   background: #ffffff;
   border: solid 10px #84a74b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.head {
+  border: solid 1px #84a74b;
+  width: 30%;
+  height: 40%;
+}
+.body {
+  border: solid 1px #f0b638;
+  width: 45%;
+  height: 50%;
 }
