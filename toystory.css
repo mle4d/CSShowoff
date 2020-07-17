@@ -9,10 +9,53 @@ body {
   width:40vw;
   height: 80vh;
   background: #88c5ec;
-  border: solid 10px #ffffff;
+  border: dashed 10px #eeeff4;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-content: center;
   align-items: center;
+  overflow: visible;
+}
+.cloud {
+  width: 60%;
+  height: 40%;
+  outline: 1px solid #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: visible;
+}
+.top {
+  width: 30%;
+  height: 45%;
+  background-color: #ffffff;
+  border-radius: 50%;
+  
+}
+.middleRight {
+  width: 40%;
+  height: 30%;
+  background-color: #ffffff;
+  border-radius: 50px;
+  align-self: flex-end;
+  margin-right: 40px;
+  margin-top: 40px;
+}
+.middleLeft {
+  width: 70%;
+  height: 40%;
+  background-color: #ffffff;
+  border-radius: 50px;
+  align-self: flex-start;
+  margin-left: 40px;
+  margin-top: -10px;
+}
+.bottom {
+    width: 90%;
+    height: 20%;
+    background-color: #ffffff;
+    border-radius: 20px;
+    margin-top: -20px;
 }
