@@ -23,7 +23,7 @@ body {
   outline: 1px solid #ffffff;
   display: flex;
   display: grid inline-grid;
-  grid-template-columns: 30% auto 50px 30%;
+  grid-template-columns: 30% auto 30%;
   grid-template-rows: 25% auto;
 }
 .top {
@@ -41,23 +41,16 @@ body {
   height: 30%;
   background-color: #ffffff;
   border-radius: 50px;
-  align-self: flex-end;
-  margin-right: 40px;
-  margin-top: 40px;
 }
 .middleLeft {
   width: 70%;
   height: 40%;
   background-color: #ffffff;
   border-radius: 50px;
-  align-self: flex-start;
-  margin-left: 40px;
-  margin-top: -10px;
 }
 .bottom {
     width: 90%;
     height: 20%;
     background-color: #ffffff;
     border-radius: 20px;
-    margin-top: -20px;
 }
