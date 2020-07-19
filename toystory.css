@@ -85,13 +85,14 @@ body {
  .cloud-left { 
    grid-area: cloud-left;
    justify-self: end;
-   align-self: start;
-   width: 100%;
-   height: 105%;
+   align-self: end;
+   width: 90%;
+   height: 80%;
    background-color: #ffffff;
    border-radius: 50%;
    border-bottom-right-radius: 0%;
    border-bottom-left-radius: 50px;
+   border-top-left-radius: 50px;
   }
  
  .cloud-bottom { 
