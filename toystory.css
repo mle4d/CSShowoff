@@ -37,14 +37,34 @@ body {
 }
 .cloud-topSmall { 
   grid-area: cloud-top;
-  justify-self: center;
+  justify-self: end;
    align-self: start;
-  width: 100%;
+  width: 80%;
   height: 250%;
   background-color: #ffffff;
   border-radius: 50%;
  }
-
+ .cloud-bottomSmall { 
+  margin-top: -10px;
+  grid-area: cloud-bottom; 
+  justify-self: center;
+  width: 60%;
+  height: 70%;
+  background-color: #ffffff;
+  border-radius: 40px;
+ }
+ .cloud-leftSmall { 
+  grid-area: cloud-left;
+  justify-self: end;
+  align-self: end;
+  width: 50%;
+  height: 100%;
+  background-color: #ffffff;
+  border-bottom-left-radius: 70px;
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 0%;
+  border-top-right-radius: 0%;
+ }
 .cloud {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
