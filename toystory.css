@@ -29,7 +29,6 @@ body {
 .smallCloud {
   width: 40%;
   height: 20%;
-  outline: 1px solid #ffffff;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1.4fr 0.6fr;
