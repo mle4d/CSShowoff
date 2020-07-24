@@ -68,6 +68,7 @@ body {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1.4fr 0.6fr;
   grid-template-areas: ". cloud-top cloud-top ." "cloud-left cloud-left cloud-right cloud-right" "cloud-bottom cloud-bottom cloud-bottom cloud-bottom";
+  animation: move-clouds 1s;
 }
 
 .cloud-top { 
@@ -114,4 +115,16 @@ body {
    height: 70%;
    background-color: #ffffff;
    border-radius: 40px;
+  }
+
+  @keyframes move-clouds {
+    10% {
+    margin-left: 20px;
+    }
+    20% {
+      margin-left: 30px;
+      }
+    40% {
+        margin-left: 40px;
+        }
   }
