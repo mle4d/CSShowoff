@@ -45,10 +45,16 @@ body {
   overflow: hidden;
 }
 .pineappleSquare {
-  width: 18%;
-  height: 15%;
-  border-top: 4px solid #b18321;
-  border-left: 3px solid #b18321;
+  width: 16%;
+  height: 16%;
+  border-left: 4px solid #b18321;
   transform: rotate(45deg);
-  border-radius: 30%;
+  border-radius: 10%;
+}
+.pineappleSquare2 {
+  width: 16%;
+  height: 16%;
+  border-right: 4px solid #b18321;
+  transform: rotate(-50deg);
+  border-radius: 10%;
 }
