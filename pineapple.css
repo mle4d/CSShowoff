@@ -35,6 +35,66 @@ body {
  background: rgb(132,167,75);
 background: radial-gradient(circle at 0%, rgba(132,167,75,1) 0%, rgba(150,187,88,1) 50%, rgba(100,128,56,1) 100%);
 }
+.pineappleLeaf1 {
+  margin-top: 70%;
+  border: solid 1px #84a74b;
+  height: 70%;
+  width: 15%;
+  border-radius: 60%;
+  transform: rotate(-47deg);
+  background: rgb(132,167,75);
+ background: radial-gradient(circle at 0%, rgba(132,167,75,1) 0%, rgba(150,187,88,1) 50%, rgba(100,128,56,1) 100%);
+ }
+ .pineappleLeaf2 {
+  margin-top: 20%;
+  border: solid 1px #84a74b;
+  height: 90%;
+  width: 15%;
+  border-radius: 60%;
+  transform: rotate(-20deg);
+  background: rgb(132,167,75);
+ background: radial-gradient(circle at 0%, rgba(132,167,75,1) 0%, rgba(150,187,88,1) 50%, rgba(100,128,56,1) 100%);
+ }
+ .pineappleLeaf3 {
+  margin-top: 20%;
+  border: solid 1px #84a74b;
+  height: 100%;
+  width: 15%;
+  border-radius: 60%;
+  transform: rotate(-10deg);
+  background: rgb(132,167,75);
+ background: radial-gradient(circle at 0%, rgba(132,167,75,1) 0%, rgba(150,187,88,1) 50%, rgba(100,128,56,1) 100%);
+ }
+ .pineappleLeaf4 {
+  margin-top: 5%;
+  border: solid 1px #84a74b;
+  height: 100%;
+  width: 15%;
+  border-radius: 60%;
+  /* transform: rotate(-10deg); */
+  background: rgb(132,167,75);
+ background: radial-gradient(circle at 0%, rgba(132,167,75,1) 0%, rgba(150,187,88,1) 50%, rgba(100,128,56,1) 100%);
+ }
+ .pineappleLeaf5 {
+  margin-top: 10%;
+  border: solid 1px #84a74b;
+  height: 100%;
+  width: 15%;
+  border-radius: 60%;
+  transform: rotate(15deg);
+  background: rgb(132,167,75);
+ background: radial-gradient(circle at 0%, rgba(132,167,75,1) 0%, rgba(150,187,88,1) 50%, rgba(100,128,56,1) 100%);
+ }
+ .pineappleLeaf6 {
+   margin-top: 45%;
+  border: solid 1px #84a74b;
+  height: 80%;
+  width: 15%;
+  border-radius: 60%;
+  transform: rotate(35deg);
+  background: rgb(132,167,75);
+ background: radial-gradient(circle at 0%, rgba(132,167,75,1) 0%, rgba(150,187,88,1) 50%, rgba(100,128,56,1) 100%);
+ }
 .body {
   border: solid 1px #f0b638;
   width: 45%;
