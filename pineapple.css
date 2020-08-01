@@ -97,25 +97,25 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  align-content: center;
+  align-content: flex-start;
   align-items: center;
   overflow: hidden;
 }
 .pineappleSquare {
-  width: 16%;
-  height: 16%;
-  border-left: 4px solid #b18321;
+  width: 8%;
+  height: 8%;
   transform: rotate(45deg);
   border-radius: 10%;
   background: rgb(240,182,56);
-background: radial-gradient(circle at 10% 30%, rgba(240,182,56,1) 0%, rgba(240,182,56,1) 40%,rgba(132,167,75,1) 50%, rgba(240,182,56,1) 70%, rgba(240,182,56,1) 100%);
-background-size: 120%;
-background-repeat: no-repeat;
+  background: radial-gradient(circle at 10% 30%, rgba(240,182,56,1) 0%, rgba(240,182,56,1) 40%,rgba(132,167,75,1) 50%, rgba(240,182,56,1) 70%, rgba(240,182,56,1) 100%);
+  background-size: 150%;
+  background-repeat: no-repeat;
 }
 .pineappleSquare2 {
-  width: 16%;
-  height: 16%;
+  width: 15%;
+  height: 15%;
   border-right: 4px solid #b18321;
-  transform: rotate(-50deg);
+  border-top: 4px solid #b18321;
+  transform: rotate(-45deg);
   border-radius: 10%;
 }
