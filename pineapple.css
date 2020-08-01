@@ -20,6 +20,20 @@ body {
   border: solid 1px #84a74b;
   width: 30%;
   height: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.pineappleLeaf1 {
+ border: solid 1px #84a74b;
+ height: 100%;
+ width: 15%;
+ border-radius: 60%;
+ transform: rotate(-10deg);
+ background: rgb(132,167,75);
+background: radial-gradient(circle at 0%, rgba(132,167,75,1) 0%, rgba(150,187,88,1) 50%, rgba(100,128,56,1) 100%);
 }
 .body {
   border: solid 1px #f0b638;
@@ -61,5 +75,4 @@ background-repeat: no-repeat;
   border-right: 4px solid #b18321;
   transform: rotate(-50deg);
   border-radius: 10%;
-  
 }
