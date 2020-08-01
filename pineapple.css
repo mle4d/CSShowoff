@@ -36,16 +36,16 @@ body {
  background: radial-gradient(circle at 0%, rgba(150,187,88,1) 50%, rgba(100,128,56,1) 100%);
  }
  .pineappleLeaf2 {
-  margin-top: 20%;
+  margin-top: 24%;
   height: 90%;
   width: 15%;
   border-radius: 60%;
-  transform: rotate(-20deg);
+  transform: rotate(-21deg);
   background: rgb(132,167,75);
  background: radial-gradient(circle at 50%, rgba(132,167,75,1) 0%, rgba(150,187,88,1) 50%);
  }
  .pineappleLeaf3 {
-  margin-top: 20%;
+  margin-top: 12%;
   height: 100%;
   width: 15%;
   border-radius: 60%;
