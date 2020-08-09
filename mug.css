@@ -1,0 +1,16 @@
+body {
+  background: #ace1ff;
+}
+.container {
+  margin: auto;
+  margin-top: 10vh;
+  width:40vw;
+  height: 80vh;
+  background: #c9eaff;
+  border: solid 10px #e1b4dd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
