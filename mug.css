@@ -24,3 +24,12 @@ body {
   overflow: visible;
   outline: red 1px solid;
 }
+.handle {
+  height: 45%;
+  width: 26%;
+  border-left: solid 10px #ffffff;
+  border-bottom: solid 8px #ffffff;
+  border-top: solid 8px #ffffff;
+  border-right: solid 1px transparent;
+  border-radius: 50%;
+}
