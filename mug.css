@@ -14,3 +14,13 @@ body {
   align-content: center;
   align-items: center;
 }
+.mug {
+  height: 55%;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  overflow: visible;
+  outline: red 1px solid;
+}
