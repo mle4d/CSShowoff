@@ -14,5 +14,11 @@ body {
   flex-direction: row;
   align-content: center;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+}
+.ball {
+ width: 60%;
+ height: 60%;
+ border-radius: 50%;
+ background:#bc88ec;
 }
