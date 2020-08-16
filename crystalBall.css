@@ -23,7 +23,11 @@ body {
  background:#bc88ec;
  box-shadow:20px 20px 50px 10px #ffa0e4 inset, 20px 10px 50px 5px #b049f0, -20px 10px 50px 5px #b049f0 ; 
 }
-
+.twinkle {
+  height: 20%;
+  width: 20%;
+  border: solid black 1px;
+}
 .bottom1 {
   width: 50%;
   height: 7%;
