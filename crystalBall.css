@@ -26,7 +26,14 @@ body {
 .twinkle {
   height: 20%;
   width: 20%;
-  /* border: solid black 1px; */
+  background:-moz-radial-gradient(0 100%, circle, transparent 30px, #fff 31px), -moz-radial-gradient(100% 100%, circle, transparent 30px, #fff 31px), -moz-radial-gradient(100% 0, circle, transparent 30px, #fff 31px), -moz-radial-gradient(0 0, circle, transparent 30px, #fff 31px);
+    background:-o-radial-gradient(0 100%, circle, transparent 30px, #fff 31px), -o-radial-gradient(100% 100%, circle, transparent 30px, #fff 31px), -o-radial-gradient(100% 0, circle, transparent 14px, #fff 31px), -o-radial-gradient(0 0, circle, transparent 30px, #fff 31px);
+    background:-webkit-radial-gradient(0 100%, circle, transparent 30px, #fff 31px), -webkit-radial-gradient(100% 100%, circle, transparent 30px, #fff 31px), -webkit-radial-gradient(100% 0, circle, transparent 30px, #fff 31px), -webkit-radial-gradient(0 0, circle, transparent 30px, #fff 31px);
+    background-position:left bottom, right bottom, right top, left top;
+    -moz-background-size:51% 51%;
+    -webkit-background-size:51% 51%;
+    background-size:51% 51%;
+    background-repeat:no-repeat;
 }
 .bottom1 {
   width: 50%;
