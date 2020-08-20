@@ -75,6 +75,7 @@ body {
  border-bottom-right-radius: 140% 200%;
  background: #ffa0e4;
  margin-left: 200px;
+ animation: blobTransform 10s linear  infinite;
 }
 
 .bottom1 {
