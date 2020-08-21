@@ -67,16 +67,14 @@ body {
     z-index: +1;
 }
 .glob {
- width: 20%;
- height: 20%;
- /* border-top-left-radius: 140% 90%;
- border-top-right-radius: 70% 110%;
- border-bottom-left-radius: 120% 120%;
- border-bottom-right-radius: 140% 200%; */
+ width: 2%;
+ height: 30%;
  border-radius: 50%;
- /* background: #b049f070; */
  margin-left: 200px;
- box-shadow: 2px 1px 5px 5px inset #b664ee, -2px -1px 5px -50px inset #b664ee, 20px 10px 50px 5px #b049f0, -20px 10px 50px 5px #b049f0 ; 
+ box-shadow:  30px 1px 20px 10px #b049f0; 
+ transform: rotate(20deg);
+ animation: blobTransform 8s linear infinite;
+ filter: blur(1px);
 }
 
 .bottom1 {
