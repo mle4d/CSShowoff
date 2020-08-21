@@ -1,52 +1,33 @@
 @keyframes blobTransform {
   0% {
-    width: 20%;
-    height: 20%;
-    border-top-left-radius: 140% 90%;
-    border-top-right-radius: 70% 110%;
-    border-bottom-left-radius: 120% 120%;
-    border-bottom-right-radius: 140% 200%;
-    background: #ffa0e4;
+    width: 2%;
+    height: 30%;
+    transform: rotate(20deg);
     margin-left: 200px;
   }
   25% {
-    width: 10%;
- height: 10%;
- border-top-left-radius: 240% 190%;
- border-top-right-radius: 170% 210%;
- border-bottom-left-radius: 220% 160%;
- border-bottom-right-radius: 240% 100%;
- background: #ffa0e4;
+    width: 3%;
+ height: 40%;
+ transform: rotate(30deg);
  margin-left: 150px;
   }
   50%{
-    width: 30%;
-    height: 30%;
-    border-top-left-radius: 180% 290%;
-    border-top-right-radius: 270% 140%;
-    border-bottom-left-radius: 170% 190%;
-    border-bottom-right-radius: 110% 150%;
-    background: #ffa0e4;
+    width: 4%;
+    height: 70%;
+    transform: rotate(10deg);
     margin-left: 100px;
+    margin-top: -20%;
   }
   75% {
-    width: 10%;
- height: 15%;
- border-top-left-radius: 100% 100%;
- border-top-right-radius:140% 230%;
- border-bottom-left-radius: 120% 220%;
- border-bottom-right-radius: 100% 120%;
- background: #ffa0e4;
- margin-left: 250px;
+    width: 3%;
+ height: 40%;
+ transform: rotate(0deg);
+ margin-left: 200px;
   }
   100% {
-    width: 20%;
-    height: 20%;
-    border-top-left-radius: 140% 90%;
-    border-top-right-radius: 70% 110%;
-    border-bottom-left-radius: 120% 120%;
-    border-bottom-right-radius: 140% 200%;
-    background: #ffa0e4;
+    width: 2%;
+    height: 30%;
+    transform: rotate(20deg);
     margin-left: 200px;
   }
 }
