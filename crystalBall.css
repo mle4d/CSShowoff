@@ -76,6 +76,17 @@ body {
  animation: blobTransform 8s linear infinite;
  filter: blur(1px);
 }
+.glob2 {
+  width: 1%;
+  height: 40%;
+  border-radius: 70%;
+  margin-top: -40%;
+  margin-left: 10px;
+  box-shadow:  30px 1px 20px 10px #77389fab, 1px 1px 2px 1px #d9c6e4; 
+  transform: rotate(-20deg);
+  animation: blobTransform2 8s linear infinite;
+  filter: blur(2px);
+}
 
 .bottom1 {
   width: 50%;
