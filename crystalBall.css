@@ -71,10 +71,11 @@ body {
  height: 30%;
  border-radius: 50%;
  margin-left: 200px;
- box-shadow:  30px 1px 20px 10px #b049f0; 
+ box-shadow:  30px 1px 20px 10px #b049f0d0; 
  transform: rotate(20deg);
  animation: blobTransform 8s linear infinite;
  filter: blur(1px);
+ opacity: .8;
 }
 .glob2 {
   width: 1%;
@@ -85,6 +86,17 @@ body {
   box-shadow:  30px 1px 20px 10px #9a5fbfab; 
   transform: rotate(-20deg);
   animation: blobTransform2 8s linear infinite;
+  filter: blur(2px);
+}
+.glob3 {
+  width: 4%;
+  height: 10%;
+  border-radius: 70%;
+  margin-top: -40%;
+  margin-left: 100px;
+  box-shadow:  30px 1px 20px 10px #cb63d4ab; 
+  transform: rotate(-20deg);
+  /* animation: blobTransform3 8s linear infinite; */
   filter: blur(2px);
 }
 
