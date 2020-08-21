@@ -82,7 +82,7 @@ body {
   border-radius: 70%;
   margin-top: -40%;
   margin-left: 10px;
-  box-shadow:  30px 1px 20px 10px #77389fab, 1px 1px 2px 1px #d9c6e4; 
+  box-shadow:  30px 1px 20px 10px #9a5fbfab; 
   transform: rotate(-20deg);
   animation: blobTransform2 8s linear infinite;
   filter: blur(2px);
