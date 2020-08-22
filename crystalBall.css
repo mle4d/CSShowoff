@@ -121,6 +121,17 @@ body {
   filter: blur(1px);
   opacity: .8;
  }
+ .glob6 {
+  width: 4%;
+  height: 10%;
+  border-radius: 70%;
+  margin-top: -40%;
+  margin-left: 50px;
+  box-shadow:  30px 1px 20px 10px #cb63d4ab; 
+  transform: rotate(-20deg);
+  animation: blobTransform6 8s linear infinite;
+  filter: blur(2px);
+}
 .bottom1 {
   width: 50%;
   height: 7%;
