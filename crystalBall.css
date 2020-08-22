@@ -96,10 +96,31 @@ body {
   margin-left: 100px;
   box-shadow:  30px 1px 20px 10px #cb63d4ab; 
   transform: rotate(-20deg);
-  /* animation: blobTransform3 8s linear infinite; */
+  animation: blobTransform3 8s linear infinite;
   filter: blur(2px);
 }
-
+.glob4 {
+  width: 1%;
+  height: 40%;
+  border-radius: 70%;
+  margin-top: -30%;
+  margin-left: 150px;
+  box-shadow:  30px 1px 20px 10px #9a5fbfab; 
+  transform: rotate(20deg);
+  animation: blobTransform4 8s linear infinite;
+  filter: blur(2px);
+}
+.glob5 {
+  width: 2%;
+  height: 30%;
+  border-radius: 50%;
+  margin-left: 100px;
+  box-shadow:  30px 1px 20px 10px #b049f0d0; 
+  transform: rotate(-20deg);
+  animation: blobTransform5 8s linear infinite;
+  filter: blur(1px);
+  opacity: .8;
+ }
 .bottom1 {
   width: 50%;
   height: 7%;
