@@ -138,3 +138,40 @@
     margin-left: 100px;
   }
 }
+@keyframes blobTransform6 {
+  0% {
+    width: 4%;
+    height: 10%;
+    margin-top: -40%;
+    margin-left: 50px;
+    transform: rotate(-20deg);
+  }
+  25% {
+    width: 3%;
+    height: 8%;
+    margin-top: -50%;
+    margin-left: 100px;
+    transform: rotate(-30deg);
+  }
+  50%{
+    width: 2%;
+    height: 6%;
+    margin-top: -40%;
+    margin-left: 50px;
+    transform: rotate(-40deg);
+  }
+  75% {
+    width: 3%;
+    height: 8%;
+    margin-top: -50%;
+    margin-left: 100px;
+    transform: rotate(-30deg);
+  }
+  100% {
+    width: 4%;
+    height: 10%;
+    margin-top: -40%;
+    margin-left: 50px;
+    transform: rotate(-20deg);
+  }
+}
