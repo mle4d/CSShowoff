@@ -81,21 +81,21 @@
     height: 8%;
     margin-top: -50%;
     margin-left: 150px;
-    transform: rotate(-40deg);
+    transform: rotate(-30deg);
   }
   50%{
     width: 2%;
     height: 6%;
     margin-top: -40%;
     margin-left: 70px;
-    transform: rotate(-60deg);
+    transform: rotate(-40deg);
   }
   75% {
     width: 3%;
     height: 8%;
     margin-top: -50%;
     margin-left: 150px;
-    transform: rotate(-40deg);
+    transform: rotate(-30deg);
   }
   100% {
     width: 4%;
@@ -103,5 +103,38 @@
     margin-top: -40%;
     margin-left: 100px;
     transform: rotate(-20deg);
+  }
+}
+@keyframes blobTransform5 {
+  0% {
+    width: 2%;
+    height: 30%;
+    transform: rotate(-20deg);
+    margin-left: 200px;
+  }
+  25% {
+    width: 3%;
+ height: 40%;
+ transform: rotate(-20deg);
+ margin-left: 150px;
+  }
+  50%{
+    width: 4%;
+    height: 60%;
+    transform: rotate(-10deg);
+    margin-left: 100px;
+    margin-top: -40%;
+  }
+  75% {
+    width: 3%;
+ height: 40%;
+ transform: rotate(0deg);
+ margin-left: 200px;
+  }
+  100% {
+    width: 2%;
+    height: 30%;
+    transform: rotate(-20deg);
+    margin-left: 200px;
   }
 }
