@@ -1,3 +1,25 @@
+@keyframes futureComing {
+  0% {
+    background:#bc88ec;
+    box-shadow:10px 20px 50px 10px #ffa0e4 inset, -10px 10px 20px 10px #f0bfedfc inset, 20px 10px 50px 5px #b049f0, -20px 10px 50px 5px #b049f0; 
+  }
+  25% {
+    background:#af7ede;
+    box-shadow:30px 30px 60px 20px #ffa0e4 inset, -30px 30px 50px 10px #f0bfedfc inset, 10px 0px 40px 1px #b049f0, -10px 0px 40px 1px #b049f0; 
+  }
+  50%{
+    background:#855eaa;
+    box-shadow:40px 40px 70px 30px #ffa0e4 inset, -40px 40px 60px 20px #f0bfed98 inset, 5px -5px 30px -10px #b049f0, -0px -10px 30px -10px #b049f0; 
+  }
+  75% {
+    background:#af7ede;
+    box-shadow:30px 30px 60px 20px #ffa0e4 inset, -30px 30px 50px 10px #f0bfedfc inset, 10px 0px 40px 1px #b049f0, -10px 0px 40px 1px #b049f0; 
+  }
+  100% {
+    background:#bc88ec;
+    box-shadow:10px 20px 50px 10px #ffa0e4 inset, -10px 10px 20px 10px #f0bfedfc inset, 20px 10px 50px 5px #b049f0, -20px 10px 50px 5px #b049f0 ; 
+  }
+}
 @keyframes blobTransform {
   0% {
     width: 2%;
