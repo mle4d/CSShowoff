@@ -17,23 +17,25 @@ body {
   justify-content: center;
 }
 .top {
-  border-bottom: 100px solid #bfc7ca;
-  border-left: 25px solid transparent;
-  border-right: 25px solid transparent;
-  height: 0;
-  width: 100px;
+  border-bottom: 50px solid #bfc7ca;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  height: 30px;
+  width: 30px;
+}
+.middle {
+  border-bottom: 160px solid #26b4ef;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-radius: 5%;
+  height: 0px;
+  width: 50px;
 }
 .bottom1 {
-  border-top: 100px solid #bfc7ca;
-  border-left: 50px solid transparent;
-  border-right: 50px solid transparent;
+  border-top: 60px solid #bfc7ca;
+  border-bottom: 80px solid #bfc7ca;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
   height: 0;
-  width: 100px;
-}
-.bottom2 {
-  border-bottom: 100px solid #bfc7ca;
-  border-left: 30px solid transparent;
-  border-right: 30px solid transparent;
-  height: 0;
-  width: 100px;
+  width: 50px;
 }
