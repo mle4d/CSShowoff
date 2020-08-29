@@ -39,3 +39,11 @@ body {
   height: 0;
   width: 50px;
 }
+.overlay {
+  border: solid red 1px;
+  position: absolute;
+  top: 25.5%;
+  left: 45%;
+  height: 56vh;
+  width: 10vw;
+}
