@@ -54,7 +54,12 @@ body {
 .top1 {
   height: 17%;
   width: 50%;
-  /* outline: black 1px solid; */
   background: rgb(0,0,0);
-background: linear-gradient(103deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 60%,rgba(141,142,147,1) 61%, rgba(228,231,236,1) 72%, rgba(196,201,207,1) 88%, rgba(228,231,236,1) 95%, rgba(0,0,0,0) 100%);
+  background: linear-gradient(103deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 60%,rgba(141,142,147,1) 61%, rgba(228,231,236,1) 72%, rgba(196,201,207,1) 88%, rgba(228,231,236,1) 95%, rgba(0,0,0,0) 100%);
+}
+.top2 {
+  height: 17%;
+  width: 50%;
+  background: rgb(0,0,0);
+  background: linear-gradient(-103deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 58%,rgba(141,142,147,1) 59%, rgba(228,231,236,1) 72%, rgba(196,201,207,1) 88%, rgba(228,231,236,1) 95%, rgba(0,0,0,0) 100%);
 }
