@@ -51,3 +51,8 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
 }
+.top1 {
+  height: 17%;
+  width: 50%;
+  outline: black 1px solid;
+}
