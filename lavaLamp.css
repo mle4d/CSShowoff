@@ -33,7 +33,7 @@ body {
   width: 80px;
 }
 .bottom {
-  border-top: 78px solid #d3d8dc;
+  border-top: 78px solid #e4e7ec;
   border-bottom: 100px solid #d3d8dc;
   border-left: 40px solid transparent;
   border-right: 40px solid transparent;
@@ -67,5 +67,27 @@ body {
 .middle1 {
   width: 100%;
   height: 47.5%;
-  outline: black solid 1px;
+  /* outline: black solid 1px; */
+}
+.bottomRow1 {
+  width: 100%;
+  height: 16%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+.bottom1 {
+  height: 16%;
+  width: 50%;
+  background: rgb(0,0,0);
+  background: linear-gradient(63deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 35%,rgba(141,142,147,1) 38%, rgba(228,231,236,1) 72%, rgba(196,201,207,1) 88%, rgba(228,231,236,1) 95%, rgba(0,0,0,0) 100%);
+  /* outline: black solid 1px; */
+}
+.bottom2 {
+  height: 16%;
+  width: 50%;
+  background: rgb(0,0,0);
+  background: linear-gradient(-63deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 34%,rgba(141,142,147,1) 37%, rgba(228,231,236,1) 72%, rgba(196,201,207,1) 88%, rgba(228,231,236,1) 99%, rgba(0,0,0,0) 100%);
+  /* outline: black solid 1px; */
 }
