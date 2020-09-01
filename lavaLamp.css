@@ -41,7 +41,7 @@ body {
   width: 70px;
 }
 .overlay {
-  outline: solid red 1px;
+  /* outline: solid red 1px; */
   position: absolute;
   top: 11.5%;
   left: 43.8%;
@@ -81,5 +81,19 @@ body {
   width: 50%;
   background: rgb(0,0,0);
   background: linear-gradient(-63deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 34%,rgba(141,142,147,1) 37%, rgba(228,231,236,1) 72%, rgba(196,201,207,1) 88%, rgba(228,231,236,1) 99%, rgba(0,0,0,0) 100%);
+  /* outline: black solid 1px; */
+}
+.bottom3 {
+  height: 19.6%;
+  width: 50%;
+  background: rgb(0,0,0);
+  background: linear-gradient(112deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 35%,rgba(141,142,147,1) 38%, rgba(228,231,236,1) 72%, rgba(196,201,207,1) 88%, rgba(228,231,236,1) 95%, rgba(0,0,0,0) 100%);
+  /* outline: black solid 1px; */
+}
+.bottom4 {
+  height: 19.6%;
+  width: 50%;
+  background: rgb(0,0,0);
+  background: linear-gradient(-112deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 34%,rgba(141,142,147,1) 37%, rgba(228,231,236,1) 72%, rgba(196,201,207,1) 88%, rgba(228,231,236,1) 99%, rgba(0,0,0,0) 100%);
   /* outline: black solid 1px; */
 }
