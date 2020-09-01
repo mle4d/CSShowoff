@@ -69,14 +69,6 @@ body {
   height: 47.5%;
   /* outline: black solid 1px; */
 }
-.bottomRow1 {
-  width: 100%;
-  height: 16%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-
-}
 .bottom1 {
   height: 16%;
   width: 50%;
