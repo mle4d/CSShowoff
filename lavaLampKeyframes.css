@@ -1,29 +1,52 @@
 @keyframes riseUp {
   0% {
     margin-bottom: -20%;
+    opacity: 0;
+    transform: rotate(60deg);
   }
   10% {
-    margin-bottom: -10%;
+    margin-bottom: 0%;
+    opacity: 1;
+    transform: rotate(80deg);
   }
   20%{
-    margin-bottom: 20%;
+    margin-bottom: 30%;
+    transform: rotate(40deg);
   }
   30% {
-    margin-bottom: 40%;
+    margin-bottom: 60%;
+    transform: rotate(0deg);
   }
   40% {
-    margin-bottom: 60%;
+    margin-bottom: 90%;
+    transform: rotate(-30deg);
   }
   50% {
-    margin-bottom: 80%;
+    margin-bottom: 120%;
+    transform: rotate(-10deg);
   }
   60%{
-    margin-bottom: 140%;
+    margin-bottom: 150%;
+    transform: rotate(0deg);
   }
   70% {
-    margin-top: -100%;
+    margin-bottom: 170%;
+    opacity: 1;
+    width: 40%;
+    height: 20%;
+  }
+  80% {
+    margin-bottom: 190%;
+    opacity: .5;
+    width: 30%;
+    height: 10%;
+  }
+  90% {
+    margin-bottom: 210%;
+    opacity: 0;
   }
   100% {
-    margin-top: -200%;
+    opacity: 0;
+    margin-top: -10%;
   }
 }
