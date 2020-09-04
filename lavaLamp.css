@@ -59,13 +59,14 @@ body {
   background: rgb(0,0,0);
   background: linear-gradient(103deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 58%,rgba(141,142,147,1) 59%, rgba(228,231,236,1) 72%, rgba(196,201,207,1) 88%, rgba(228,231,236,1) 95%, rgba(0,0,0,0) 100%);
   box-shadow: 40px 20px 10px -10px #ffffff83;
+  z-index: +1;
 }
 .top2 {
   height: 17%;
   width: 50%;
   background: rgb(0,0,0);
   background: linear-gradient(-103deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 58%,rgba(141,142,147,1) 59%, rgba(228,231,236,1) 72%, rgba(196,201,207,1) 88%, rgba(228,231,236,1) 95%, rgba(0,0,0,0) 100%);
-  /* box-shadow: 0px 30px 10px -10px #ffffff83; */
+  z-index: +1;
 }
 .middle1 {
   border-radius: 5%;
@@ -83,7 +84,6 @@ body {
   background: #a4e0f7;
   border-radius: 50%;
   box-shadow: 5px 10px 20px 0px #ffffffa1 inset, -10px 10px 10px 1px #3ca0eca1 inset, 10px 20px 20px -10px #ffffffa1;
-  margin-bottom: -20%;
   animation: riseUp 20s linear infinite;
 }
 .bottom1 {
