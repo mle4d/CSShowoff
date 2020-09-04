@@ -84,7 +84,20 @@ body {
   background: #a4e0f7;
   border-radius: 50%;
   box-shadow: 5px 10px 20px 0px #ffffffa1 inset, -10px 10px 10px 1px #3ca0eca1 inset, 10px 20px 20px -10px #ffffffa1;
-  animation: riseUp 20s linear infinite;
+  animation: riseUp 20s 0s linear infinite;
+}
+.blob2 {
+  width: 10%;
+  height: 20%;
+  align-self: center;
+  /* margin-top: -10%; */
+  margin-left: 10%;
+  background: #a4e0f7;
+  border-top-width: 70%;
+  border-radius: 90%;
+  border-bottom-width: 10%;
+  box-shadow: 5px 10px 20px 0px #ffffffa1 inset, -10px 10px 10px 1px #3ca0eca1 inset, 10px 20px 20px -10px #ffffffa1;
+  animation: none;
 }
 .bottom1 {
   height: 16%;
