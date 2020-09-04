@@ -28,9 +28,9 @@ body {
   border-bottom: 240px solid #26b4ef;
   border-left: 40px solid transparent;
   border-right: 40px solid transparent;
-  border-radius: 5%;
+  border-radius: 7%;
   height: 0px;
-  width: 80px;
+  width: 77px;
 }
 .bottom {
   border-top: 78px solid #e4e7ec;
@@ -57,7 +57,7 @@ body {
   height: 17%;
   width: 50%;
   background: rgb(0,0,0);
-  background: linear-gradient(103deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 60%,rgba(141,142,147,1) 61%, rgba(228,231,236,1) 72%, rgba(196,201,207,1) 88%, rgba(228,231,236,1) 95%, rgba(0,0,0,0) 100%);
+  background: linear-gradient(103deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 58%,rgba(141,142,147,1) 59%, rgba(228,231,236,1) 72%, rgba(196,201,207,1) 88%, rgba(228,231,236,1) 95%, rgba(0,0,0,0) 100%);
   box-shadow: 40px 20px 10px -10px #ffffff83;
 }
 .top2 {
@@ -68,14 +68,14 @@ body {
   /* box-shadow: 0px 30px 10px -10px #ffffff83; */
 }
 .middle1 {
-  border-radius: 3%;
-  margin-left: 1%;
-  width: 140%;
+  border-radius: 5%;
+  width: 100%;
   height: 47.5%;
   box-shadow: 0px -25px 10px -10px #ffffff83 inset;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: flex-end;
 }
 .blob1 {
   width: 40%;
@@ -83,20 +83,22 @@ body {
   background: #a4e0f7;
   border-radius: 50%;
   box-shadow: 5px 10px 20px 0px #ffffffa1 inset, -10px 10px 10px 1px #3ca0eca1 inset, 10px 20px 20px -10px #ffffffa1;
+  z-index: +1;
+  margin-bottom: -20%;
 }
 .bottom1 {
   height: 16%;
   width: 50%;
   background: rgb(0,0,0);
   background: linear-gradient(63deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 35%,rgba(141,142,147,1) 38%, rgba(228,231,236,1) 72%, rgba(196,201,207,1) 88%, rgba(228,231,236,1) 95%, rgba(0,0,0,0) 100%);
-  /* box-shadow: 0px -20px 6px -6px #ffffff4b; */
+  z-index: +1;
 }
 .bottom2 {
   height: 16%;
   width: 50%;
   background: rgb(0,0,0);
   background: linear-gradient(-63deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 34%,rgba(141,142,147,1) 37%, rgba(228,231,236,1) 72%, rgba(196,201,207,1) 88%, rgba(228,231,236,1) 99%, rgba(0,0,0,0) 100%);
-  /* box-shadow: 0px -10px 0px #ffffff1e; */
+  z-index: +1;
 }
 .bottom3 {
   height: 19.6%;
