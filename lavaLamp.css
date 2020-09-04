@@ -83,8 +83,8 @@ body {
   background: #a4e0f7;
   border-radius: 50%;
   box-shadow: 5px 10px 20px 0px #ffffffa1 inset, -10px 10px 10px 1px #3ca0eca1 inset, 10px 20px 20px -10px #ffffffa1;
-  z-index: +1;
   margin-bottom: -20%;
+  animation: riseUp 20s linear infinite;
 }
 .bottom1 {
   height: 16%;
