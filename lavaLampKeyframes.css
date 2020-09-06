@@ -8,23 +8,37 @@
     opacity: 1;
     top: -50%;
     left: 0%;
+    transform: rotate(-180deg);
+  }
+  90% {
+    opacity: .5;
+    top: -90%;
+    left: 0%;
+    transform: rotate(-130deg);
   }
   100% {
     opacity: 0;
     top: -100%;
     left: 0%;
+    transform: rotate(-90deg);
   }
 } 
 @keyframes blob2animation {
   0% {
     top: 30%;
     left: 3%;
-   
   }
   50% {
     opacity: 1;
     top: -50%;
     left: -1%;
+    transform: rotate(30deg);
+  }
+  90% {
+    opacity: .5;
+    top: -120%;
+    left: -1%;
+    transform: rotate(60deg);
   }
   100% {
     opacity: 0;
