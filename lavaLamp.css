@@ -106,7 +106,7 @@ body {
   background: #a4e0f7;
   border-radius: 50%;
   box-shadow: 5px 10px 20px 0px #ffffffa1 inset, -10px 10px 10px 1px #3ca0eca1 inset, 10px 20px 20px -10px #ffffffa1;
-  animation:  blob2animation 15s 3s linear infinite;
+  animation:  blob2animation 15s 1s linear infinite;
   position: relative;
 }
 .blob3 {
@@ -117,7 +117,7 @@ body {
   margin-left: 2%;
   margin-bottom: -40%;
   box-shadow: 5px 10px 20px 0px #ffffffa1 inset, -10px 10px 10px 1px #3ca0eca1 inset, 10px 20px 20px -10px #ffffffa1;
-  animation:  blob3animation 20s  4s infinite linear;
+  animation:  blob3animation 20s 2s infinite linear;
   position: relative;
 }
 .blob4 {
