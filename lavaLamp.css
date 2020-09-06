@@ -120,6 +120,17 @@ body {
   animation:  blob3animation 20s  4s infinite linear;
   position: relative;
 }
+.blob4 {
+  width: 10%;
+  height: 5%;
+  align-self: center;
+  margin-left: -25%;
+  margin-bottom: -20%;
+  background: #a4e0f7;
+  border-radius: 50%;
+  animation:  blob4animation 10s 3s linear infinite;
+  position: relative;
+}
 .bottomBlob {
   width: 80%;
   height: 4%;
