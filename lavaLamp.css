@@ -78,29 +78,36 @@ body {
   align-items: center;
   justify-content: flex-end;
 }
+.blobHolder {
+  height: 90%;
+  width: 90%;
+  outline: red 1px solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  
+}
 .blob1 {
   width: 40%;
   height: 20%;
   background: #a4e0f7;
   border-radius: 50%;
   box-shadow: 5px 10px 20px 0px #ffffffa1 inset, -10px 10px 10px 1px #3ca0eca1 inset, 10px 20px 20px -10px #ffffffa1;
-  animation: riseUp 20s 0s linear infinite;
+  /* animation: animateBubble 20s linear infinite, sideWays 2s ease-in-out infinite alternate; */
 }
-/* .blob2 {
-  width: 10%;
+.blob2 {
+  width: 30%;
   height: 15%;
   align-self: center;
-  margin-bottom: -20%;
-  margin-left: 10%;
+  /* margin-top: -300%; */
+  margin-left: 30%;
   background: #a4e0f7;
-  border-top-width: 70%;
-  border-top-left-radius: 90%;
-  border-top-right-radius: 50%;
-  border-bottom-width: 10%;
+  border-radius: 50%;
   box-shadow: 5px 10px 20px 0px #ffffffa1 inset, -10px 10px 10px 1px #3ca0eca1 inset, 10px 20px 20px -10px #ffffffa1;
-  animation: none;
-  position: absolute;
-} */
+  /* animation: animateBubble 25s linear infinite, sideWays 2s ease-in-out infinite alternate; */
+  /* position: absolute; */
+}
 .blob3 {
   width: 80%;
   height: 4%;
