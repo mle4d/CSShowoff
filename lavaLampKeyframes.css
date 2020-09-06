@@ -1,45 +1,43 @@
-@keyframes riseUp {
+ @keyframes riseUp {
   0% {
     margin-bottom: -20%;
     opacity: 0;
-    transform: rotate(60deg);
+   
   }
   10% {
     margin-bottom: 0%;
     opacity: 1;
-    transform: rotate(80deg);
+   
   }
   20%{
     margin-bottom: 30%;
-    transform: rotate(40deg);
+    
   }
   30% {
     margin-bottom: 60%;
-    transform: rotate(0deg);
+    
   }
   40% {
     margin-bottom: 90%;
-    transform: rotate(-30deg);
+    
   }
   50% {
     margin-bottom: 120%;
-    transform: rotate(-10deg);
+    
   }
   60%{
     margin-bottom: 150%;
-    transform: rotate(0deg);
+    
   }
   70% {
     margin-bottom: 170%;
     opacity: 1;
-    width: 40%;
-    height: 20%;
+  
   }
   80% {
     margin-bottom: 190%;
     opacity: .5;
-    width: 30%;
-    height: 10%;
+  
   }
   90% {
     margin-bottom: 210%;
@@ -49,4 +47,122 @@
     opacity: 0;
     margin-top: -10%;
   }
+} 
+@keyframes heHasRisen {
+  0% {
+    margin-bottom: -20%;
+    opacity: 0;
+   
+  }
+  10% {
+    margin-bottom: 10%;
+    opacity: 1;
+   
+  }
+  20%{
+    margin-bottom: 40%;
+    
+  }
+  30% {
+    margin-bottom: 70%;
+    
+  }
+  40% {
+    margin-bottom: 100%;
+    
+  }
+  50% {
+    margin-bottom: 140%;
+    
+  }
+  60%{
+    margin-bottom: 180%;
+    
+  }
+  70% {
+    margin-bottom: 200%;
+    opacity: 0;
+  
+  }
+  80% {
+    margin-bottom: 230%;
+    opacity: .5;
+  
+  }
+  90% {
+    margin-bottom: 300%;
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+    margin-top: -60%;
+  }
+} 
+@keyframes turning {
+  0% {
+    transform: rotate(0deg);
 }
+100% {
+  transform: rotate(50deg);
+}
+}
+
+@keyframes turningtwo {
+  0% {
+    transform: rotate(30deg);
+}
+100% {
+  transform: rotate(0deg);
+}
+}
+/* @keyframes sideWays { 
+  0% { 
+      margin-left:0px;
+  }
+  100% { 
+      margin-left:50px;
+  }
+} */
+@keyframes animateBubble {
+  0% {
+      margin-top: 200px;
+  }
+  100% {
+      margin-bottom: 220px;
+  }
+}
+
+@keyframes blob1animation {
+  0% {
+    top: 30%;
+    left: -4%;
+    opacity: .9;
+  }
+  50% {
+    opacity: 1;
+    top: -50%;
+    left: 0%;
+  }
+  100% {
+    opacity: 0;
+    top: -100%;
+    left: 0%;
+  }
+} 
+@keyframes blob2animation {
+  0% {
+    top: 30%;
+    left: 3%;
+   
+  }
+  50% {
+    opacity: 1;
+    top: -50%;
+    left: 0%;
+  }
+  100% {
+    opacity: 0;
+    top: -100%;
+    left: -1%;
+  }
+} 
