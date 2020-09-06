@@ -109,7 +109,7 @@ body {
   animation:  blob2animation 15s 4s linear infinite;
   position: relative;
 }
-.blob3 {
+.bottomBlob {
   width: 80%;
   height: 4%;
   align-self: center;
@@ -119,7 +119,6 @@ body {
   border-top-width: 70%;
   border-radius: 90%;
   border-bottom-width: 10%;
-  /* box-shadow: 5px 10px 20px 0px #ffffffa1 inset, -10px 10px 10px 1px #3ca0eca1 inset, 10px 20px 20px -10px #ffffffa1; */
   animation: none;
   position: absolute;
 }
