@@ -60,7 +60,7 @@
   }
   90% {
     
-    top: -70%;
+    top: -100%;
     left: 0%;
     transform: rotate(-6deg);
   }
@@ -79,19 +79,19 @@
   }
   50% {
     
-    top: -10%;
+    top: -20%;
     left: 0%;
     transform: rotate(-180deg);
   }
   90% {
     
-    top: -50%;
+    top: -90%;
     left: 0%;
     transform: rotate(-130deg);
   }
   100% {
     
-    top: -100%;
+    top: -110%;
     left: 0%;
     transform: rotate(-90deg);
   }
