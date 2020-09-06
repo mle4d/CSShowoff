@@ -94,7 +94,8 @@ body {
   background: #a4e0f7;
   border-radius: 50%;
   box-shadow: 5px 10px 20px 0px #ffffffa1 inset, -10px 10px 10px 1px #3ca0eca1 inset, 10px 20px 20px -10px #ffffffa1;
-  /* animation: animateBubble 20s linear infinite, sideWays 2s ease-in-out infinite alternate; */
+  animation:  blob1animation 20s infinite linear;
+  position: relative;
 }
 .blob2 {
   width: 30%;
@@ -105,8 +106,9 @@ body {
   background: #a4e0f7;
   border-radius: 50%;
   box-shadow: 5px 10px 20px 0px #ffffffa1 inset, -10px 10px 10px 1px #3ca0eca1 inset, 10px 20px 20px -10px #ffffffa1;
-  /* animation: animateBubble 25s linear infinite, sideWays 2s ease-in-out infinite alternate; */
+  animation:  blob2animation 15s linear infinite;
   /* position: absolute; */
+  position: relative;
 }
 .blob3 {
   width: 80%;
