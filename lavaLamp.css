@@ -101,13 +101,12 @@ body {
   width: 30%;
   height: 15%;
   align-self: center;
-  /* margin-top: -300%; */
   margin-left: 30%;
+  margin-bottom: -20%;
   background: #a4e0f7;
   border-radius: 50%;
   box-shadow: 5px 10px 20px 0px #ffffffa1 inset, -10px 10px 10px 1px #3ca0eca1 inset, 10px 20px 20px -10px #ffffffa1;
-  animation:  blob2animation 15s linear infinite;
-  /* position: absolute; */
+  animation:  blob2animation 15s 4s linear infinite;
   position: relative;
 }
 .blob3 {
