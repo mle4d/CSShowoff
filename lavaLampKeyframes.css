@@ -1,137 +1,3 @@
- @keyframes riseUp {
-  0% {
-    margin-bottom: -20%;
-    opacity: 0;
-   
-  }
-  10% {
-    margin-bottom: 0%;
-    opacity: 1;
-   
-  }
-  20%{
-    margin-bottom: 30%;
-    
-  }
-  30% {
-    margin-bottom: 60%;
-    
-  }
-  40% {
-    margin-bottom: 90%;
-    
-  }
-  50% {
-    margin-bottom: 120%;
-    
-  }
-  60%{
-    margin-bottom: 150%;
-    
-  }
-  70% {
-    margin-bottom: 170%;
-    opacity: 1;
-  
-  }
-  80% {
-    margin-bottom: 190%;
-    opacity: .5;
-  
-  }
-  90% {
-    margin-bottom: 210%;
-    opacity: 0;
-  }
-  100% {
-    opacity: 0;
-    margin-top: -10%;
-  }
-} 
-@keyframes heHasRisen {
-  0% {
-    margin-bottom: -20%;
-    opacity: 0;
-   
-  }
-  10% {
-    margin-bottom: 10%;
-    opacity: 1;
-   
-  }
-  20%{
-    margin-bottom: 40%;
-    
-  }
-  30% {
-    margin-bottom: 70%;
-    
-  }
-  40% {
-    margin-bottom: 100%;
-    
-  }
-  50% {
-    margin-bottom: 140%;
-    
-  }
-  60%{
-    margin-bottom: 180%;
-    
-  }
-  70% {
-    margin-bottom: 200%;
-    opacity: 0;
-  
-  }
-  80% {
-    margin-bottom: 230%;
-    opacity: .5;
-  
-  }
-  90% {
-    margin-bottom: 300%;
-    opacity: 0;
-  }
-  100% {
-    opacity: 0;
-    margin-top: -60%;
-  }
-} 
-@keyframes turning {
-  0% {
-    transform: rotate(0deg);
-}
-100% {
-  transform: rotate(50deg);
-}
-}
-
-@keyframes turningtwo {
-  0% {
-    transform: rotate(30deg);
-}
-100% {
-  transform: rotate(0deg);
-}
-}
-/* @keyframes sideWays { 
-  0% { 
-      margin-left:0px;
-  }
-  100% { 
-      margin-left:50px;
-  }
-} */
-@keyframes animateBubble {
-  0% {
-      margin-top: 200px;
-  }
-  100% {
-      margin-bottom: 220px;
-  }
-}
-
 @keyframes blob1animation {
   0% {
     top: 30%;
@@ -158,11 +24,11 @@
   50% {
     opacity: 1;
     top: -50%;
-    left: 0%;
+    left: -1%;
   }
   100% {
     opacity: 0;
-    top: -100%;
-    left: -1%;
+    top: -130%;
+    left: -10%;
   }
 } 
