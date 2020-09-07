@@ -146,15 +146,16 @@ body {
   width: 30%;
   height: 20%;
   position: relative;
-  top: 20px;
-  left: 25px;
+  top: 10%;
+  left: 25%;
   border-bottom-right-radius: 30%;
   border-bottom-left-radius: 20%;
   border-top-left-radius: 10%;
-  border-top-right-radius: 20%;
-  box-shadow: 0 0 10px #ffffff inset;
+  border-top-right-radius: 10%;
+  box-shadow: 0 0 10px #a4e0f7 inset;
   transform: rotate(-45deg);
-  background: radial-gradient(at top right,#a4e0f7, #a4e0f7 10%, #a4e0f7, #a4e0f7, #a4e0f7, #a4e0f7);  
+  background: radial-gradient(at top right,#a4e0f7, #3ca0eca1 10%, #a4e0f7, #a4e0f7, #a4e0f7, #ffffff);  
+  animation: bubbleBlob 10s ease-out infinite;
 }
 .bottomBlob {
   width: 80%;
