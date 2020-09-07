@@ -95,3 +95,21 @@
     transform: rotate(-90deg);
   }
 } 
+@keyframes bubbleBlob {
+  0% {
+    top: 10%;
+    border-bottom-right-radius: 30%;
+    border-bottom-left-radius: 20%;
+  }
+  50% {
+    top: 20%;
+    border-bottom-right-radius: 10%;
+    border-bottom-left-radius: 20%;
+}
+100% {
+  top: 10%;
+  border-bottom-right-radius: 30%;
+  border-bottom-left-radius: 20%;
+}
+} 
+    
