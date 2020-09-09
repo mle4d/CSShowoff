@@ -41,7 +41,6 @@ body {
   width: 70px;
 }
 .overlay {
-  /* outline: solid red 1px; */
   position: absolute;
   top: 11.5%;
   left: 43.8%;
@@ -49,12 +48,13 @@ body {
   width: 12.2vw;
   display: flex;
   flex-direction: row;
-  align-content: flex-start;
+  align-content: flex-end;
   justify-content: center;
   flex-wrap: wrap;
+  overflow: hidden;
 }
 .top1 {
-  height: 17%;
+  height: 16.8%;
   width: 50%;
   background: rgb(0,0,0);
   background: linear-gradient(103deg, #a4e0f7 0%, #a4e0f7 58%,rgba(141,142,147,1) 59%, rgba(228,231,236,1) 72%, rgba(196,201,207,1) 88%, rgba(228,231,236,1) 95%, #e2e5ea 100%);
@@ -62,7 +62,7 @@ body {
   z-index: +1;
 }
 .top2 {
-  height: 17%;
+  height: 16.8%;
   width: 50%;
   background: rgb(0,0,0);
   background: linear-gradient(-103deg, #a4e0f7 0%, #a4e0f7 58%,rgba(141,142,147,1) 59%, rgba(228,231,236,1) 72%, rgba(196,201,207,1) 88%, rgba(228,231,236,1) 95%, #e2e5ea 100%);
@@ -77,16 +77,6 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
-}
-.blobHolder {
-  height: 90%;
-  width: 90%;
-  outline: red 1px solid;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-end;
-  
 }
 .blob1 {
   width: 40%;
@@ -146,8 +136,8 @@ body {
   width: 30%;
   height: 20%;
   position: relative;
-  top: 10%;
-  left: 5%;
+  top: 30%;
+  left: -4%;
   border-bottom-right-radius: 30%;
   border-bottom-left-radius: 20%;
   border-top-left-radius: 10%;
@@ -155,7 +145,8 @@ body {
   box-shadow: 0 0 10px #a4e0f7 inset;
   transform: rotate(-45deg);
   background: radial-gradient(at top right,#a4e0f7, #3ca0eca1 10%, #a4e0f7, #a4e0f7, #a4e0f7, #ffffff);  
-  animation: bubbleBlob 10s ease-out infinite;
+  animation: bubbleBlob 20s ease-out infinite;
+  z-index: +1;
 }
 .bottomBlob {
   width: 80%;
