@@ -86,6 +86,7 @@ body {
   box-shadow: 5px 10px 20px 0px #ffffffa1 inset, -10px 10px 10px 1px #3ca0eca1 inset, 10px 20px 20px -10px #ffffffa1;
   animation:  blob1animation 20s infinite linear;
   position: relative;
+  filter:drop-shadow(8px 8px -10px #a4e0f7);
 }
 .blob2 {
   width: 30%;
@@ -96,7 +97,7 @@ body {
   background: #a4e0f7;
   border-radius: 50%;
   box-shadow: 5px 10px 20px 0px #ffffffa1 inset, -10px 10px 10px 1px #3ca0eca1 inset, 10px 20px 20px -10px #ffffffa1;
-  animation:  blob2animation 15s 1s linear infinite;
+  animation:  blob2animation 18s 1s linear infinite;
   position: relative;
 }
 .blob3 {
@@ -109,6 +110,7 @@ body {
   box-shadow: 5px 10px 20px 0px #ffffffa1 inset, -10px 10px 10px 1px #a4e0f7 inset, 10px 20px 20px -10px #ffffffa1;
   animation:  blob3animation 20s 2s infinite linear;
   position: relative;
+  filter:drop-shadow(8px 8px -10px #3ca0eca1);
 }
 .blob4 {
   width: 10%;
@@ -118,7 +120,7 @@ body {
   margin-bottom: -20%;
   background: #a4e0f7;
   border-radius: 50%;
-  animation:  blob4animation 10s 3s linear infinite;
+  animation:  blob4animation 12s 3s linear infinite;
   position: relative;
 }
 .blob5 {
@@ -132,22 +134,7 @@ body {
   animation:  blob4animation 13s 4s linear infinite;
   position: relative;
 }
-.drop{
-  width: 30%;
-  height: 20%;
-  position: relative;
-  top: 30%;
-  left: -4%;
-  border-bottom-right-radius: 30%;
-  border-bottom-left-radius: 20%;
-  border-top-left-radius: 10%;
-  border-top-right-radius: 10%;
-  box-shadow: 0 0 10px #a4e0f7 inset;
-  transform: rotate(-45deg);
-  background: radial-gradient(at top right,#a4e0f7, #3ca0eca1 10%, #a4e0f7, #a4e0f7, #a4e0f7, #ffffff);  
-  animation: bubbleBlob 20s ease-out infinite;
-  z-index: +1;
-}
+
 .bottomBlob {
   width: 80%;
   height: 4%;
