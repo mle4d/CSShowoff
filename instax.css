@@ -21,9 +21,9 @@ body {
   height: 80%;
   background: #fa9186;
   border-top-left-radius: 40%;
-  border-top-right-radius: 10%;
+  border-top-right-radius: 5%;
   border-bottom-left-radius: 10%;
-  border-bottom-right-radius: 5%;
+  border-bottom-right-radius: 8%;
   position: relative;
   z-index: 1;
 }
