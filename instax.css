@@ -24,4 +24,6 @@ body {
   border-top-right-radius: 10%;
   border-bottom-left-radius: 10%;
   border-bottom-right-radius: 5%;
+  position: relative;
+  z-index: 1;
 }
