@@ -16,3 +16,12 @@ body {
   align-items: center;
   justify-content: center;
 }
+.body {
+  width: 80%;
+  height: 80%;
+  background: #fa9186;
+  border-top-left-radius: 40%;
+  border-top-right-radius: 10%;
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 5%;
+}
