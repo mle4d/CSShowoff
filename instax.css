@@ -45,5 +45,15 @@ body {
  box-shadow: #ff8b7e 1px 1px 10px 1px;
  display: flex;
  flex-direction: column;
- align-content: flex-start;
+ align-items: center;
+
+}
+.eyeView {
+  width: 20%;
+  height: 10%;
+  background: radial-gradient(circle, #ffffff 0%, #000000dd 30%, #000000 100%);
+  outline: solid 1px #000000;
+  margin-top: 18%;
+  margin-left: -9px;
+  box-shadow: #c7746ef3 3px 5px 6px 8px;
 }
