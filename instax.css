@@ -162,3 +162,14 @@ body {
   border-radius: 50%;
   box-shadow: #ff8b7e 20px 0px 10px -10px, #ff8b7e -10px 0px 10px 10px;
 }
+.lensButton {
+  width: 5%;
+  height: 10%;
+  background: #f88c80;
+  box-shadow: #eb9c93 5px 0px 1px -1px,#f57567 -3px 0px 1px 1px;
+  align-self: center;
+  margin-right: 5%;
+  margin-bottom: -30%;
+  transform: rotate(16deg);
+  border-radius: 50%;
+}
