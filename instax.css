@@ -69,12 +69,12 @@ body {
   box-shadow: #ff9b94c0 -3px 3px 10px 10px, #c7746ef3 -3px 1px 4px 8px, #cc6c61d2 0px 10px 10px 1px inset ;
 }
 .camComp {
- /* border: solid red 1px; */
  height: 100%;
  width: 65%;
  display: flex;
  flex-direction: row;
  justify-content: space-between;
+ flex-wrap: wrap;
 }
 .flash {
   width: 15%;
@@ -154,4 +154,11 @@ body {
   transform: rotate(-20deg);
   margin-right: 5%;
   background: #fa9186;
+}
+.lens {
+  /* border: 1px red solid; */
+  width: 90%;
+  height: 60%;
+  border-radius: 50%;
+  box-shadow: #ff8b7e 20px 0px 10px -10px, #ff8b7e -10px 0px 10px 10px;
 }
