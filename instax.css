@@ -74,3 +74,10 @@ body {
   margin-top: 5%;
   border-radius: 30px;
 }
+.flashInner {
+  width: 90%;
+  height: 90%;
+  border-radius: 30px;
+  background: linear-gradient(0deg, #ffffff 0%, #000000 100%);
+  margin: auto;
+}
