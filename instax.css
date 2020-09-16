@@ -160,6 +160,9 @@ body {
   height: 60%;
   border-radius: 50%;
   box-shadow: #ff8b7e 20px 0px 10px -10px, #ff8b7e -10px 0px 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .lensButton {
   width: 5%;
@@ -171,4 +174,13 @@ body {
   margin-bottom: -30%;
   transform: rotate(16deg);
   border-radius: 50%;
+}
+.secondCircle {
+  width: 80%;
+  height: 80%;
+  border-radius: 50%;
+  border-bottom: ridge 2px #000000b9;
+  border-top: ridge 1px #000000b9;
+  border-left: ridge 1px #000000b9;
+  border-right: ridge 2px #000000b9;
 }
