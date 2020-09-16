@@ -183,4 +183,14 @@ body {
   border-top: ridge 1px #000000b9;
   border-left: ridge 1px #000000b9;
   border-right: ridge 2px #000000b9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lensCircle {
+  height: 35%;
+  width: 40%;
+  border-radius: 50%;
+  background: #000000be;
+  box-shadow: #ac756f 0px -10px 10px 0px, #f7aaa1 0px 10px 10px -1px, #ac756f 1px 1px 10px 0px, #ac756f -1px 1px 10px 0px;
 }
