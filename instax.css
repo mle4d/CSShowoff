@@ -31,7 +31,6 @@ body {
   flex-direction: row;
   flex-wrap: wrap; 
   justify-content: space-between;
-  /* align-items: ; */
   box-shadow: 8px 30px 20px -20px #33161370;
 }
 .grip {
@@ -69,8 +68,16 @@ body {
   margin-left: -7px;
   box-shadow: #ff9b94c0 -3px 3px 10px 10px, #c7746ef3 -3px 1px 4px 8px, #cc6c61d2 0px 10px 10px 1px inset ;
 }
+.camComp {
+ /* border: solid red 1px; */
+ height: 100%;
+ width: 65%;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+}
 .flash {
-  width: 10%;
+  width: 15%;
   height: 25%;
   background: #ffffffd8;
   border: solid 3px #88868675;
@@ -105,8 +112,8 @@ body {
   background: radial-gradient(circle at 50% 30%, rgba(255,255,255,1) 0%, #aaaaaa 100%);
 }
 .twoDotsContainer {
-  width: 6%;
-  height: 11%;
+  width: 10%;
+  height: 13%;
   border: 2px solid #ff8b7e;
   background: #ff938b;
   margin-top: 15%;
@@ -140,11 +147,11 @@ body {
   font-size: 4vh;
 }
 .sideBump {
-  width: 12%;
-  height: 14%;
+  width: 14%;
+  height: 15%;
   border-radius: 50px;
-  margin-top: 5%;
-  transform: rotate(-15deg);
-  margin-right: 3%;
+  margin-top: 6%;
+  transform: rotate(-20deg);
+  margin-right: 5%;
   background: #fa9186;
 }
