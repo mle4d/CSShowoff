@@ -85,4 +85,17 @@ body {
   background-size: 3px 3px;
   background-repeat: repeat;
   margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.flashTop {
+  height: 35%;
+  width: 99%;
+  border: solid red 1px;
+}
+.flashBottom {
+  height: 35%;
+  width: 99%;
+  border: solid red 1px;
 }
