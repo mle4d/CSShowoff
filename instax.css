@@ -29,6 +29,8 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap; 
+  justify-content: space-between;
+  /* align-items: ; */
   box-shadow: 8px 30px 20px -20px #33161370;
 }
 .grip {
@@ -100,4 +102,12 @@ body {
   height: 35%;
   width: 100%;
   background: radial-gradient(circle at 50% 30%, rgba(255,255,255,1) 0%, #aaaaaa 100%);
+}
+.twoDotsContainer {
+  width: 6%;
+  height: 11%;
+  border: 2px solid #ff8b7e;
+  background: #ff938b;
+  margin-top: 15%;
+  border-radius: 30px;
 }
