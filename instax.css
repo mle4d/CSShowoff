@@ -66,3 +66,11 @@ body {
   margin-left: -7px;
   box-shadow: #ff9b94c0 -3px 3px 10px 10px, #c7746ef3 -3px 1px 4px 8px, #cc6c61d2 0px 10px 10px 1px inset ;
 }
+.flash {
+  width: 10%;
+  height: 25%;
+  background: #ffffff;
+  border: solid 3px #79767675;
+  margin-top: 5%;
+  border-radius: 30px;
+}
