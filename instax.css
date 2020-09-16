@@ -118,14 +118,14 @@ body {
 .topDot {
   width: 50%;
   height: 25%;
-  background: #00000092;
+  background: #000000b0;
   border-radius: 50%;
-  box-shadow: #af615cc0 0px 5px 5px -1px;
+  box-shadow: #f87066cb 0px 5px 5px -1px;
 }
 .bottomDot {
   width: 50%;
   height: 25%;
-  background: #00000092;
+  background: #000000b0;
   border-radius: 50%;
-  box-shadow: #af615cc0 0px 5px 5px -1px;
+  box-shadow: #f87066cb 0px 5px 5px -1px;
 }
