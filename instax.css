@@ -29,6 +29,7 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap; 
+  box-shadow: 8px 20px 10px -10px #33161370;
 }
 .grip {
  width: 35%;
@@ -37,9 +38,10 @@ body {
  align-self: flex-end;
  margin-left: -9px;
  margin-top: 5.5%;
- background: #ff8b7e;
+ background: #fa9186;
  border-top-left-radius: 35% 40%;
  border-top-right-radius: 50%;
  border-bottom-left-radius: 20% 10%;
  border-bottom-right-radius: 30% 10%;
+ box-shadow: #ff8b7e 1px 1px 10px 1px;
 }
