@@ -92,10 +92,12 @@ body {
 .flashTop {
   height: 35%;
   width: 99%;
-  border: solid red 1px;
+  background: linear-gradient(0deg, #ffffff 0%, #ff9b94c0 15%, #ff9b94c0 25%, #ffffff 50%, #ff9b94c0 75%, #ff9b94c0 85%, #ffffff 100%);
+  background-size: 10px 10px;
+  background-repeat: repeat;
 }
 .flashBottom {
   height: 35%;
   width: 99%;
-  border: solid red 1px;
+  background: radial-gradient(circle, rgba(255,255,255,1) 0%, #aaaaaa 100%);
 }
