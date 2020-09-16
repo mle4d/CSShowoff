@@ -69,15 +69,20 @@ body {
 .flash {
   width: 10%;
   height: 25%;
-  background: #ffffff;
-  border: solid 3px #79767675;
+  background: #ffffffd8;
+  border: solid 3px #88868675;
   margin-top: 5%;
   border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .flashInner {
   width: 90%;
   height: 90%;
   border-radius: 30px;
-  background: linear-gradient(0deg, #ffffff 0%, #000000 100%);
+  background: linear-gradient(0deg, #ffffff 0%, #494747 50%, #ffffff 100%);
+  background-size: 3px 3px;
+  background-repeat: repeat;
   margin: auto;
 }
