@@ -176,8 +176,8 @@ body {
   border-radius: 50%;
 }
 .secondCircle {
-  width: 80%;
-  height: 80%;
+  width: 75%;
+  height: 75%;
   border-radius: 50%;
   border-bottom: ridge 2px #000000b9;
   border-top: ridge 1px #000000b9;
@@ -191,6 +191,15 @@ body {
   height: 35%;
   width: 40%;
   border-radius: 50%;
-  background: #000000be;
+  background: #000000cd;
   box-shadow: #ac756f 0px -10px 10px 0px, #f7aaa1 0px 10px 10px -1px, #ac756f 1px 1px 10px 0px, #ac756f -1px 1px 10px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lensWindow {
+  height: 70%;
+  width: 50%;
+  border: #000000 solid 2px;
+  border-radius: 20%;
 }
