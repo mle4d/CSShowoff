@@ -43,4 +43,7 @@ body {
  border-bottom-left-radius: 20% 10%;
  border-bottom-right-radius: 30% 10%;
  box-shadow: #ff8b7e 1px 1px 10px 1px;
+ display: flex;
+ flex-direction: column;
+ align-content: flex-start;
 }
