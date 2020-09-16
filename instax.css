@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
 body {
   margin: auto;
   background: #fa9186;
@@ -128,4 +129,13 @@ body {
   background: #000000b0;
   border-radius: 50%;
   box-shadow: #f87066cb 0px 5px 5px -1px;
+}
+.name {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #ffffff;
+  margin-top: 10%;
+  text-align: center;
+}
+.name b {
+  font-size: 4vh;
 }
